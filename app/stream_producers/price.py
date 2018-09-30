@@ -30,6 +30,7 @@ class PriceProducer:
         return gas_station
 
     def push_data(self, data):
+        print(f'Pushing new data to kafka: {data}')
         json_data = json.dumps(data).encode('utf-8')
         self.producer.send(self.KAFKA_TOPIC_NAME, json_data)
 
@@ -37,7 +38,6 @@ class PriceProducer:
         while True:
             gas_station = random.choice(self.data)
             data = self.create_price(gas_station)
-            print(f'Pushing new data to kafka: {data}')
             self.push_data(data)
             time.sleep(30)
 
