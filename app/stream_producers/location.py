@@ -15,7 +15,7 @@ class LocationProducer:
     MAX_LONG = -34.968500
 
     def __init__(self):
-        self.producer = KafkaProducer(bootstrap_servers=['localhost:29092'])
+        self.producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
 
     def push_data(self, data):
         print(f'Pushing new data to kafka: {data}')
@@ -31,6 +31,7 @@ class LocationProducer:
         while True:
             lat, long = self.generate_location()
             data = {
+                'id': random.randint(1, 101),
                 'latitute': lat,
                 'longitude': long,
             }

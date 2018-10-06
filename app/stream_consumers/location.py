@@ -9,7 +9,7 @@ class LocationConsumer:
 
     def __init__(self):
         self.consumer = KafkaConsumer(
-            self.KAFKA_TOPIC_NAME, group_id='test-group', bootstrap_servers=['localhost:29092']
+            self.KAFKA_TOPIC_NAME, group_id='test-group', bootstrap_servers=['localhost:9092']
         )
 
     def run(self):
