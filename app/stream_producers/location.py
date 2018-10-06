@@ -35,9 +35,10 @@ class LocationProducer:
                 'lat': lat,
                 'long': long,
                 'location_timestamp': int(time.time() * 1000),
+                'joinner': 1,
             }
             self.push_data(data)
-            time.sleep(1)
+            time.sleep(0.5)
 
 
 if __name__ == '__main__':
