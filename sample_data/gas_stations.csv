@@ -1,127 +1,127 @@
-id;razao social;endereco;bairro;bandeira
-1;Afogados Comercio de Combustivel Ltda - Epp;Rua Cosme Viana, 721 Loja 1;Afogados;SETTA DISTRIBUIDORA
-2;Posto Avenida Recife Ltda;Avenida Recife, 2981;Ipsep;FEDERAL
-3;Nvc Comercio de Combustiveis Eireli;Avenida Norte Miguel Arraes de Alencar, 2905;Encruzilhada;BRANCA
-4;Mega Posto Ltda;Avenida Marechal Masc.de Moraes, 1022;Imbiribeira;IPIRANGA
-5;Energy Derivados de Petroleo Ltda;Rua Jaticy, 53;Imbiribeira;PETROBRAS DISTRIBUIDORA S.A.
-6;Serv- Norte Comércio de Combustiveis Ltda;Rua Jose Osorio, 153;Madalena;BRANCA
-7;Posto Sejal Ltda.;Avenida Militar, 545;Recife;PETROBRAS DISTRIBUIDORA S.A.
-8;Monteneses Ltda;Avenida Marechal Mascarenhas de Morais, 3000 0;Imbiribeira;IPIRANGA
-9;Petrocal Petroleo Cavalcanti Limitada;Avenida Marechal Mascarenhas de Morais, 1854;Imbiribeira;PETROBRAS DISTRIBUIDORA S.A.
-10;Posto Apipucos Ltda;Rua Professor Trajano de Mendonca, 440;Torre;RAIZEN
-11;M M Petróleo Ltda;Avenida Agamenon Magalhães, S/n Módulo 04;Santo Amaro;PETROBRAS DISTRIBUIDORA S.A.
-12;Posto Ypiranga Ltda - Me;Rua Futuro, 436;Aflitos;PETROBRAS DISTRIBUIDORA S.A.
-13;Cjcm Petroleo Ltda.;Avenida Marechal Mascarenhas de Morais, 4900;Imbiribeira;RAIZEN
-14;Posto Xingu Ltda;Rua Joao Tude de Melo, 91;Parnamirim;IPIRANGA
-15;Posto Modelo Ltda;Avenida Professor Joao Medeiros, 233;Boa Viagem;IPIRANGA
-16;Posto Elo Ltda;Estrada dos Remedios, 879;Afogados;IPIRANGA
-17;Petrocal Petroleo Cavalcanti Limitada;Avenida Engenheiro Abdias de Carvalho, 720;Torroes;PETROBRAS DISTRIBUIDORA S.A.
-18;Posto Escadense Eireli;Rua Barao de Souza Leao, 939 Parte;Boa Viagem;BRANCA
-19;Posto de Combustíveis Cdu Ltda.;Rua General Polidoro, 1050;Várzea;PETROBRAS DISTRIBUIDORA S.A.
-20;Posto Cayman Ltda.;Estrada de Belem, 1218;Campo Grande;BRANCA
-21;Carrefour Comercio e Industria Ltda;Rua José Bonifácio, 1315 Parte;Torre;RAIZEN
-22;Companhia Brasileira de Distribuicao;Avenida Engenheiro Abdias de Carvalho, 336;Madalena;IPIRANGA
-23;Companhia Brasileira de Distribuicao;Estrada dos Remedios, 2464;Ilha do Retiro;RAIZEN
-24;Posto Tacaruna Ltda;Avenida Cruz Cabuga, 991;Santo Amaro;IPIRANGA
-25;Postos Fvv - Eireli;Avenida Militar, 550;Bairro do Recife;RAIZEN
-26;Teixeira & Filhos Ltda.;Avenida Norte, 6999;Casa Amarela;BRANCA
-27;Norte Braz Ltda - Me;Rua Sao Bento, 340;Agua Fria;BRANCA
-28;Posto Silva & Araujo Ltda - Me;Avenida Caxanga, 2615;Cordeiro;BRANCA
-29;Petroleo Cosmorama Ltda;Rua Cosmorama, 548;Boa Viagem;PETROBRAS DISTRIBUIDORA S.A.
-30;Torre Comércio de Combustíveis Ltda - Me.;Rua Real da Torre, 954;Madalena;BRANCA
-31;A B Silva e Cia Ltda;Avenida Beberibe, 1021;Arruda;PETROBRAS DISTRIBUIDORA S.A.
-32;Posto Cancun Ltda;Estrada de Belem, 736;Campo Grande;TDC DISTRIBUIDORA
-33;Ac Norte Ltda.;Avenida Norte, 1002;Santo Amaro;BRANCA
-34;Petrovel Petróleo Veloso Ltda.;Avenida Alfredo Lisboa, 173 Terreo;Bairro do Recife;PETROBRAS DISTRIBUIDORA S.A.
-35;Posto Modelo Ltda;Avenida Caxanga, 2864;Iputinga;RAIZEN
-36;Mf Comércio de Derivados de Petróleo Ltda.;Avenida Joaquim Ribeiro, 1345;Várzea;PETROBRAS DISTRIBUIDORA S.A.
-37;Geraldo Vieira e Cia Ltda.;Avenida Caxangá, 4500;Iputinga;RAIZEN
-38;Cemopel Cm Petroleo Ltda;Rua Rio Azul, 219;Boa Viagem;RAIZEN
-39;Cjcm Petroleo Ltda.;Rua Ernesto de Paula Santos, 525;Boa Viagem;RAIZEN
-40;Nodepel - Novaes Derivados de Petroleo Ltda;Avenida Marechal Mascarenhas de Moraes, 2135;Imbiribeira;IPIRANGA
-41;Cunha Derivados de Petroleo Ltda;Avenida Marechal Mascarenhas de Morais, 3468;Imbiribeira;PETROBRAS DISTRIBUIDORA S.A.
-42;Abasteca Comercio de Combustiveis Ltda;Avenida Caxanga, 5808 Casa;Iputinga;RAIZEN
-43;Posto de Serviços Quatro Irmãos Ltda.;Avenida Manoel Gonçalves da Luz, 901 0;Mustardinha;BRANCA
-44;Gmv Combustíveis Ltda.;Avenida Joaquim Ribeiro, 675;Várzea;DISLUB
-45;Mc Comercio Derivados de Petroleo Ltda;Avenida Norte, 4390 0;Tamarineira;PETROBRAS DISTRIBUIDORA S.A.
-46;Terezinha Moura Andrade;Largo do Mercado do Cordeiro, S/n Box 74/79;Cordeiro;DISLUB
-47;Posto Capri Comércio de Petróleo Ltda.;Avenida General San Martins, 625;Cordeiro;TDC DISTRIBUIDORA
-48;Petro Caxanga Ltda;Avenida Caxangá, 4335;Iputinga;DISLUB
-49;Organização de Petroleo Shopping Ltda;Rua Barão de Souza Leão, 1388 0;Boa Viagem;PETROBRAS DISTRIBUIDORA S.A.
-50;Cjcm Petroleo Ltda.;Avenida Dezessete de Agosto, 2450;Monteiro;RAIZEN
-51;Tacaruna Petroleo Ltda;Avenida Governador Agamenon, 1101;Santo Amaro;PETROBRAS DISTRIBUIDORA S.A.
-52;Senzala Serviços Automotivos Ltda;Estrada do Arraial, 3546;Casa Amarela;RAIZEN
-53;A. V. Combustiveis Ltda;Avenida 17 de Agosto, 2310;Casa Forte;DISLUB
-54;Graças Combustíveis Ltda.;Avenida Conselheiro Rosa e Silva, 1550;Graças;RAIZEN
-55;Auto Posto Vila Nova Ltda.;Avenida Caxanga, 1271 0;Cordeiro;PETROBRAS DISTRIBUIDORA S.A.
-56;Wanderley e Claudenier Ltda;Avenida Joaquim Ribeiro, 40;Caxanga;RAIZEN
-57;Posto Nova Madalena Ltda.;Rua Real da Torre, 430;Madalena;PETROBRAS DISTRIBUIDORA S.A.
-58;Posto A. R. Combustivel Ltda;Praca Venacio de Rezende, 10;Afogados;BRANCA
-59;Posto Leão da Ilha Ltda.;Avenida Engenheiro Abdias de Carvalho, 1055;Ilha do Retiro;PETROBRAS DISTRIBUIDORA S.A.
-60;Posto Nacional Comércio de Derivados de Petróleo Ltda.;Avenida Marechal Mascarenhas de Morais, 5803;Imbiribeira;IPIRANGA
-61;Petrocal Petroleo Cavalcanti Limitada;Rua Conselheiro Nabuco, 383;Casa Amarela;PETROBRAS DISTRIBUIDORA S.A.
-62;Posto Abastecimento Sao Jose Ltda;Rua Imperial, 457 0;São José;PETROBRAS DISTRIBUIDORA S.A.
-63;Posto Campus de Combustiveis Ltda;Rua Benfica, 919;Madalena;RAIZEN
-64;Cavalcante Rabelo Ltda;Avenida Conselheiro Rosa e Silva, 2000 0;Tamarineira;RAIZEN
-65;Posto Leão da Ilha Ltda.;Avenida Engenheiro Abdias de Carvalho, 125 0;Madalena;RAIZEN
-66;Posto Ibiza Ltda;Avenida Manoel Goncalves da Luz, 70;Bongi;BRANCA
-67;Organização de Petroleo Shopping Ltda;Estrada dos Remédios, 1235;Afogados;PETROBRAS DISTRIBUIDORA S.A.
-68;Posto Sophia Ltda;Avenida Caxanga, 5405;Varzea;IPIRANGA
-69;Posto Sao Felix Espinheiro Ltda - Me;Rua Santo Elias, 223;Espinheiro;IPIRANGA
-70;Cadilac Petroleo Ltda.;Avenida Fernando Simoes Barbosa, 406;Boa Viagem;PETROBRAS DISTRIBUIDORA S.A.
-71;P. G. Comercio de Combustiveis Ltda - Me;Rua Monte Castelo, 35;Boa Vista;IPIRANGA
-72;Posto Casa Forte Ltda.;Avenida 17 de Agosto, 598;Casa Forte;PETROBRAS DISTRIBUIDORA S.A.
-73;C Albuquerque Comércio de Combustíveis Ltda.;Avenida Engenheiro Abdias de Carvalho, 90;Prado;BRANCA
-74;Petró Abdias Ltda;Avenida Abdias de Carvalho, 267 C;Prado Conselheiro Paulino;DISLUB
-75;Petrocal Petroleo Cavalcanti Limitada;Avenida Professor Estevão Francisco da Costa, 257;Torre;BRANCA
-76;Posto Internacional Ltda.;Rua Benfica, 568;Madalena;PETROBRAS DISTRIBUIDORA S.A.
-77;Posto Ilheus Ltda;Rua General Joaquim Inacio, 425;Paissandu;IPIRANGA
-78;Petro Jóquei Combustível Ltda.;Rua Carlos Gomes, 758;Prado;DISLUB
-79;Posto Lupp Ii Ltda.;Avenida Abdias de Carvalho, 1122;Torroes;RAIZEN
-80;Iguep Incorporadora Guedes Pereira Ltda;Avenida Eng Abdias de Carvalho, 1701;Bongi;PETROBRAS DISTRIBUIDORA S.A.
-81;Iguep Incorporadora Guedes Pereira Ltda;Avenida Eng Abdias de Carvalho, 1142;Prado;PETROBRAS DISTRIBUIDORA S.A.
-82;Posto Jockey Comercio Varejista de Combustiveis Ltda - Epp;Avenida Engenheiro Abdias de Carvalho, 1830;Prado;PETROBRAS DISTRIBUIDORA S.A.
-83;Posto Apolo Ltda;Avenida Cais do Apolo, 790;Recife;IPIRANGA
-84;Almeida Comercio de Der. de Petroleo Ltda;Avenida Montevideu, 336;Boa Vista;RAIZEN
-85;Petrocal Petroleo Cavalcanti Limitada;Rua Sao Mateus, 26;Iputinga;PETROBRAS DISTRIBUIDORA S.A.
-86;Posto Netuno Ltda;Avenida Antonio de Goes, 183;Pina;FEDERAL
-87;Posto Leticia Pereira e Santos Ltda;Avenida Herculano Bandeira, Sn;Pina;PETROBRAS DISTRIBUIDORA S.A.
-88;Passira Comercio de Derivados de Petroleo Ltda;Avenida João de Barros, 1179;Espinheiro;PETROBRAS DISTRIBUIDORA S.A.
-89;Petrocal Petroleo Cavalcanti Limitada;Avenida Norte, 3110;Rosarinho;PETROBRAS DISTRIBUIDORA S.A.
-90;Posto Albatex Ltda;Avenida Professor Moraes Rego, 670;Varzea;IPIRANGA
-91;Posto Leão da Ilha Ltda.;Avenida Engenheiro Abdias de Carvalho, 125 0;Madalena;RAIZEN
-92;Posto Xingu Ltda;Rua Joao Tude de Melo, 91;Parnamirim;IPIRANGA
-93;Posto Cancun Ltda;Estrada de Belem, 736;Campo Grande;TDC DISTRIBUIDORA
-94;Petrocal Petroleo Cavalcanti Limitada;Rua Conselheiro Nabuco, 383;Casa Amarela;PETROBRAS DISTRIBUIDORA S.A.
-95;Posto Tacaruna Ltda;Avenida Cruz Cabuga, 991;Santo Amaro;IPIRANGA
-96;Posto Cayman Ltda.;Estrada de Belem, 1218;Campo Grande;BRANCA
-97;Mc Comercio Derivados de Petroleo Ltda;Avenida Norte, 4390 0;Tamarineira;PETROBRAS DISTRIBUIDORA S.A.
-98;Cjcm Petroleo Ltda.;Avenida Marechal Mascarenhas de Morais, 4900;Imbiribeira;RAIZEN
-99;Cjcm Petroleo Ltda.;Avenida Dezessete de Agosto, 2450;Monteiro;RAIZEN
-100;Posto Elo Ltda;Estrada dos Remedios, 879;Afogados;IPIRANGA
-101;Posto A. R. Combustivel Ltda;Praca Venacio de Rezende, 10;Afogados;BRANCA
-102;Petrocal Petroleo Cavalcanti Limitada;Avenida Professor Estevão Francisco da Costa, 257;Torre;BRANCA
-103;Posto Casa Forte Ltda.;Avenida 17 de Agosto, 598;Casa Forte;PETROBRAS DISTRIBUIDORA S.A.
-104;Petrocal Petroleo Cavalcanti Limitada;Avenida Norte, 3110;Rosarinho;PETROBRAS DISTRIBUIDORA S.A.
-105;Petrocal Petroleo Cavalcanti Limitada;Avenida Marechal Mascarenhas de Morais, 1854;Imbiribeira;PETROBRAS DISTRIBUIDORA S.A.
-106;A B Silva e Cia Ltda;Avenida Beberibe, 1021;Arruda;PETROBRAS DISTRIBUIDORA S.A.
-107;Posto Ilheus Ltda;Rua General Joaquim Inacio, 425;Paissandu;IPIRANGA
-108;Posto Apipucos Ltda;Rua Professor Trajano de Mendonca, 440;Torre;RAIZEN
-109;Cemopel Cm Petroleo Ltda;Rua Rio Azul, 219;Boa Viagem;RAIZEN
-110;Energy Derivados de Petroleo Ltda;Rua Jaticy, 53;Imbiribeira;PETROBRAS DISTRIBUIDORA S.A.
-111;Mega Posto Ltda;Avenida Marechal Masc.de Moraes, 1022;Imbiribeira;IPIRANGA
-112;Posto Capri Comércio de Petróleo Ltda.;Avenida General San Martins, 625;Cordeiro;TDC DISTRIBUIDORA
-113;Petrocal Petroleo Cavalcanti Limitada;Rua Sao Mateus, 26;Iputinga;PETROBRAS DISTRIBUIDORA S.A.
-114;Teixeira & Filhos Ltda.;Avenida Norte, 6999;Casa Amarela;BRANCA
-115;Posto Sejal Ltda.;Avenida Militar, 545;Recife;PETROBRAS DISTRIBUIDORA S.A.
-116;Posto Leão da Ilha Ltda.;Avenida Engenheiro Abdias de Carvalho, 1055;Ilha do Retiro;PETROBRAS DISTRIBUIDORA S.A.
-117;Posto Apolo Ltda;Avenida Cais do Apolo, 790;Recife;IPIRANGA
-118;Petrocal Petroleo Cavalcanti Limitada;Avenida Engenheiro Abdias de Carvalho, 720;Torroes;PETROBRAS DISTRIBUIDORA S.A.
-119;P. G. Comercio de Combustiveis Ltda - Me;Rua Monte Castelo, 35;Boa Vista;IPIRANGA
-120;Posto Nova Madalena Ltda.;Rua Real da Torre, 430;Madalena;PETROBRAS DISTRIBUIDORA S.A.
-121;Posto Modelo Ltda;Avenida Caxanga, 2864;Iputinga;RAIZEN
-122;Cjcm Petroleo Ltda.;Rua Ernesto de Paula Santos, 525;Boa Viagem;RAIZEN
-123;Posto Modelo Ltda;Avenida Professor Joao Medeiros, 233;Boa Viagem;IPIRANGA
-124;Posto Abastecimento Sao Jose Ltda;Rua Imperial, 457 0;São José;PETROBRAS DISTRIBUIDORA S.A.
-125;Posto Campus de Combustiveis Ltda;Rua Benfica, 919;Madalena;RAIZEN
-126;Petrovel Petróleo Veloso Ltda.;Avenida Alfredo Lisboa, 173 Terreo;Bairro do Recife;PETROBRAS DISTRIBUIDORA S.A.
+id,razao social,endereco,bairro,bandeira,latitude,longitude
+1,Afogados Comercio de Combustivel Ltda - Epp,"Rua Cosme Viana, 721 Loja 1",Afogados,SETTA DISTRIBUIDORA,-8.0710581,-34.9096468
+2,Posto Avenida Recife Ltda,"Avenida Recife, 2981",Ipsep,FEDERAL,-8.1137826,-34.92566
+3,Nvc Comercio de Combustiveis Eireli,"Avenida Norte Miguel Arraes de Alencar, 2905",Encruzilhada,BRANCA,-8.0354279,-34.8956273
+4,Mega Posto Ltda,"Avenida Marechal Masc.de Moraes, 1022",Imbiribeira,IPIRANGA,-8.091654,-34.908837
+5,Energy Derivados de Petroleo Ltda,"Rua Jaticy, 53",Imbiribeira,PETROBRAS DISTRIBUIDORA S.A.,-8.1153005,-34.9127029
+6,Serv- Norte Comércio de Combustiveis Ltda,"Rua Jose Osorio, 153",Madalena,BRANCA,-8.0534046,-34.9058755
+7,Posto Sejal Ltda.,"Avenida Militar, 545",Recife,PETROBRAS DISTRIBUIDORA S.A.,-8.0518662,-34.872319
+8,Monteneses Ltda,"Avenida Marechal Mascarenhas de Morais, 3000 0",Imbiribeira,IPIRANGA,-8.1176271,-34.9137208
+9,Petrocal Petroleo Cavalcanti Limitada,"Avenida Marechal Mascarenhas de Morais, 1854",Imbiribeira,PETROBRAS DISTRIBUIDORA S.A.,-8.098773999999999,-34.910327
+10,Posto Apipucos Ltda,"Rua Professor Trajano de Mendonca, 440",Torre,RAIZEN,-8.044053,-34.909476
+11,M M Petróleo Ltda,"Avenida Agamenon Magalhães, S/n Módulo 04",Santo Amaro,PETROBRAS DISTRIBUIDORA S.A.,-8.0409912,-34.8803136
+12,Posto Ypiranga Ltda - Me,"Rua Futuro, 436",Aflitos,PETROBRAS DISTRIBUIDORA S.A.,-8.0408323,-34.8998928
+13,Cjcm Petroleo Ltda.,"Avenida Marechal Mascarenhas de Morais, 4900",Imbiribeira,RAIZEN,-8.1278436,-34.9158603
+14,Posto Xingu Ltda,"Rua Joao Tude de Melo, 91",Parnamirim,IPIRANGA,-8.0359422,-34.9099119
+15,Posto Modelo Ltda,"Avenida Professor Joao Medeiros, 233",Boa Viagem,IPIRANGA,-8.1175207,-34.9008331
+16,Posto Elo Ltda,"Estrada dos Remedios, 879",Afogados,IPIRANGA,-8.0722081,-34.9077672
+17,Petrocal Petroleo Cavalcanti Limitada,"Avenida Engenheiro Abdias de Carvalho, 720",Torroes,PETROBRAS DISTRIBUIDORA S.A.,-8.0626508,-34.9329973
+18,Posto Escadense Eireli,"Rua Barao de Souza Leao, 939 Parte",Boa Viagem,BRANCA,-8.1325503,-34.9084088
+19,Posto de Combustíveis Cdu Ltda.,"Rua General Polidoro, 1050",Várzea,PETROBRAS DISTRIBUIDORA S.A.,-8.046221400000002,-34.9481243
+20,Posto Cayman Ltda.,"Estrada de Belem, 1218",Campo Grande,BRANCA,-8.0323244,-34.8811986
+21,Carrefour Comercio e Industria Ltda,"Rua José Bonifácio, 1315 Parte",Torre,RAIZEN,-8.0407875,-34.9103447
+22,Companhia Brasileira de Distribuicao,"Avenida Engenheiro Abdias de Carvalho, 336",Madalena,IPIRANGA,-8.0608903,-34.9055335
+23,Companhia Brasileira de Distribuicao,"Estrada dos Remedios, 2464",Ilha do Retiro,RAIZEN,-8.058341300000002,-34.9069599
+24,Posto Tacaruna Ltda,"Avenida Cruz Cabuga, 991",Santo Amaro,IPIRANGA,-8.039565399999999,-34.8719012
+25,Postos Fvv - Eireli,"Avenida Militar, 550",Bairro do Recife,RAIZEN,-8.0524624,-34.8716332
+26,Teixeira & Filhos Ltda.,"Avenida Norte, 6999",Casa Amarela,BRANCA,-8.0194833,-34.9274993
+27,Norte Braz Ltda - Me,"Rua Sao Bento, 340",Agua Fria,BRANCA,-8.023596699999999,-34.8969416
+28,Posto Silva & Araujo Ltda - Me,"Avenida Caxanga, 2615",Cordeiro,BRANCA,-8.0459429,-34.9298171
+29,Petroleo Cosmorama Ltda,"Rua Cosmorama, 548",Boa Viagem,PETROBRAS DISTRIBUIDORA S.A.,-8.1420662,-34.9116985
+30,Torre Comércio de Combustíveis Ltda - Me.,"Rua Real da Torre, 954",Madalena,BRANCA,-8.0486756,-34.9086194
+31,A B Silva e Cia Ltda,"Avenida Beberibe, 1021",Arruda,PETROBRAS DISTRIBUIDORA S.A.,-8.0284357,-34.8931574
+32,Posto Cancun Ltda,"Estrada de Belem, 736",Campo Grande,TDC DISTRIBUIDORA,-8.033705399999999,-34.8850685
+33,Ac Norte Ltda.,"Avenida Norte, 1002",Santo Amaro,BRANCA,-8.0442568,-34.8811061
+34,Petrovel Petróleo Veloso Ltda.,"Avenida Alfredo Lisboa, 173 Terreo",Bairro do Recife,PETROBRAS DISTRIBUIDORA S.A.,-8.065403,-34.872612
+35,Posto Modelo Ltda,"Avenida Caxanga, 2864",Iputinga,RAIZEN,-8.044094099999999,-34.9321674
+36,Mf Comércio de Derivados de Petróleo Ltda.,"Avenida Joaquim Ribeiro, 1345",Várzea,PETROBRAS DISTRIBUIDORA S.A.,-8.021916,-34.9645933
+37,Geraldo Vieira e Cia Ltda.,"Avenida Caxangá, 4500",Iputinga,RAIZEN,-8.036888,-34.9451094
+38,Cemopel Cm Petroleo Ltda,"Rua Rio Azul, 219",Boa Viagem,RAIZEN,-8.134176799999999,-34.9093948
+39,Cjcm Petroleo Ltda.,"Rua Ernesto de Paula Santos, 525",Boa Viagem,RAIZEN,-8.12469,-34.9018542
+40,Nodepel - Novaes Derivados de Petroleo Ltda,"Avenida Marechal Mascarenhas de Moraes, 2135",Imbiribeira,IPIRANGA,-8.1091845,-34.9116613
+41,Cunha Derivados de Petroleo Ltda,"Avenida Marechal Mascarenhas de Morais, 3468",Imbiribeira,PETROBRAS DISTRIBUIDORA S.A.,-8.0914307,-34.9086676
+42,Abasteca Comercio de Combustiveis Ltda,"Avenida Caxanga, 5808 Casa",Iputinga,RAIZEN,-8.03124,-34.9553673
+43,Posto de Serviços Quatro Irmãos Ltda.,"Avenida Manoel Gonçalves da Luz, 901 0",Mustardinha,BRANCA,-8.074447,-34.9182253
+44,Gmv Combustíveis Ltda.,"Avenida Joaquim Ribeiro, 675",Várzea,DISLUB,-8.0262788,-34.9608619
+45,Mc Comercio Derivados de Petroleo Ltda,"Avenida Norte, 4390 0",Tamarineira,PETROBRAS DISTRIBUIDORA S.A.,-8.0264024,-34.9048737
+46,Terezinha Moura Andrade,"Largo do Mercado do Cordeiro, S/n Box 74/79",Cordeiro,DISLUB,-8.0524188,-34.9213297
+47,Posto Capri Comércio de Petróleo Ltda.,"Avenida General San Martins, 625",Cordeiro,TDC DISTRIBUIDORA,-8.0553452,-34.9237417
+48,Petro Caxanga Ltda,"Avenida Caxangá, 4335",Iputinga,DISLUB,-8.038013,-34.9440759
+49,Organização de Petroleo Shopping Ltda,"Rua Barão de Souza Leão, 1388 0",Boa Viagem,PETROBRAS DISTRIBUIDORA S.A.,-8.1328301,-34.912454
+50,Cjcm Petroleo Ltda.,"Avenida Dezessete de Agosto, 2450",Monteiro,RAIZEN,-8.028319,-34.9261111
+51,Tacaruna Petroleo Ltda,"Avenida Governador Agamenon, 1101",Santo Amaro,PETROBRAS DISTRIBUIDORA S.A.,-8.038367,-34.8750354
+52,Senzala Serviços Automotivos Ltda,"Estrada do Arraial, 3546",Casa Amarela,RAIZEN,-8.0272525,-34.9139853
+53,A. V. Combustiveis Ltda,"Avenida 17 de Agosto, 2310",Casa Forte,DISLUB,-8.0294188,-34.925551
+54,Graças Combustíveis Ltda.,"Avenida Conselheiro Rosa e Silva, 1550",Graças,RAIZEN,-8.0382983,-34.9002572
+55,Auto Posto Vila Nova Ltda.,"Avenida Caxanga, 1271 0",Cordeiro,PETROBRAS DISTRIBUIDORA S.A.,-8.051488299999999,-34.9197998
+56,Wanderley e Claudenier Ltda,"Avenida Joaquim Ribeiro, 40",Caxanga,RAIZEN,-8.0299522,-34.9577584
+57,Posto Nova Madalena Ltda.,"Rua Real da Torre, 430",Madalena,PETROBRAS DISTRIBUIDORA S.A.,-8.053347,-34.9084253
+58,Posto A. R. Combustivel Ltda,"Praca Venacio de Rezende, 10",Afogados,BRANCA,-8.0800758,-34.9107288
+59,Posto Leão da Ilha Ltda.,"Avenida Engenheiro Abdias de Carvalho, 1055",Ilha do Retiro,PETROBRAS DISTRIBUIDORA S.A.,-8.0622562,-34.9093351
+60,Posto Nacional Comércio de Derivados de Petróleo Ltda.,"Avenida Marechal Mascarenhas de Morais, 5803",Imbiribeira,IPIRANGA,-8.1346057,-34.9161436
+61,Petrocal Petroleo Cavalcanti Limitada,"Rua Conselheiro Nabuco, 383",Casa Amarela,PETROBRAS DISTRIBUIDORA S.A.,-8.0292967,-34.9172694
+62,Posto Abastecimento Sao Jose Ltda,"Rua Imperial, 457 0",São José,PETROBRAS DISTRIBUIDORA S.A.,-8.0732465,-34.8857365
+63,Posto Campus de Combustiveis Ltda,"Rua Benfica, 919",Madalena,RAIZEN,-8.0584346,-34.907305
+64,Cavalcante Rabelo Ltda,"Avenida Conselheiro Rosa e Silva, 2000 0",Tamarineira,RAIZEN,-8.0348617,-34.9023557
+65,Posto Leão da Ilha Ltda.,"Avenida Engenheiro Abdias de Carvalho, 125 0",Madalena,RAIZEN,-8.0623066,-34.9114331
+66,Posto Ibiza Ltda,"Avenida Manoel Goncalves da Luz, 70",Bongi,BRANCA,-8.0654188,-34.9168855
+67,Organização de Petroleo Shopping Ltda,"Estrada dos Remédios, 1235",Afogados,PETROBRAS DISTRIBUIDORA S.A.,-8.0691957,-34.9086371
+68,Posto Sophia Ltda,"Avenida Caxanga, 5405",Varzea,IPIRANGA,-8.033462199999999,-34.9525834
+69,Posto Sao Felix Espinheiro Ltda - Me,"Rua Santo Elias, 223",Espinheiro,IPIRANGA,-8.0440379,-34.8939789
+70,Cadilac Petroleo Ltda.,"Avenida Fernando Simoes Barbosa, 406",Boa Viagem,PETROBRAS DISTRIBUIDORA S.A.,-8.1211029,-34.9015956
+71,P. G. Comercio de Combustiveis Ltda - Me,"Rua Monte Castelo, 35",Boa Vista,IPIRANGA,-8.0503275,-34.8901969
+72,Posto Casa Forte Ltda.,"Avenida 17 de Agosto, 598",Casa Forte,PETROBRAS DISTRIBUIDORA S.A.,-8.0367696,-34.9144537
+73,C Albuquerque Comércio de Combustíveis Ltda.,"Avenida Engenheiro Abdias de Carvalho, 90",Prado,BRANCA,-8.0622062,-34.9138111
+74,Petró Abdias Ltda,"Avenida Abdias de Carvalho, 267 C",Prado Conselheiro Paulino,DISLUB,-8.0615724,-34.9072657
+75,Petrocal Petroleo Cavalcanti Limitada,"Avenida Professor Estevão Francisco da Costa, 257",Torre,BRANCA,-8.0472162,-34.9189923
+76,Posto Internacional Ltda.,"Rua Benfica, 568",Madalena,PETROBRAS DISTRIBUIDORA S.A.,-8.0577942,-34.9038579
+77,Posto Ilheus Ltda,"Rua General Joaquim Inacio, 425",Paissandu,IPIRANGA,-8.063082699999999,-34.8954549
+78,Petro Jóquei Combustível Ltda.,"Rua Carlos Gomes, 758",Prado,DISLUB,-8.0623278,-34.91348800000001
+79,Posto Lupp Ii Ltda.,"Avenida Abdias de Carvalho, 1122",Torroes,RAIZEN,-8.064710300000002,-34.9378221
+80,Iguep Incorporadora Guedes Pereira Ltda,"Avenida Eng Abdias de Carvalho, 1701",Bongi,PETROBRAS DISTRIBUIDORA S.A.,-8.06172,-34.921399
+81,Iguep Incorporadora Guedes Pereira Ltda,"Avenida Eng Abdias de Carvalho, 1142",Prado,PETROBRAS DISTRIBUIDORA S.A.,-8.0623066,-34.9114331
+82,Posto Jockey Comercio Varejista de Combustiveis Ltda - Epp,"Avenida Engenheiro Abdias de Carvalho, 1830",Prado,PETROBRAS DISTRIBUIDORA S.A.,-8.062026,-34.9179041
+83,Posto Apolo Ltda,"Avenida Cais do Apolo, 790",Recife,IPIRANGA,-8.055335099999999,-34.8718359
+84,Almeida Comercio de Der. de Petroleo Ltda,"Avenida Montevideu, 336",Boa Vista,RAIZEN,-8.049077,-34.8924888
+85,Petrocal Petroleo Cavalcanti Limitada,"Rua Sao Mateus, 26",Iputinga,PETROBRAS DISTRIBUIDORA S.A.,-8.0414007,-34.9368501
+86,Posto Netuno Ltda,"Avenida Antonio de Goes, 183",Pina,FEDERAL,-8.089362999999999,-34.8833077
+87,Posto Leticia Pereira e Santos Ltda,"Avenida Herculano Bandeira, Sn",Pina,PETROBRAS DISTRIBUIDORA S.A.,-8.0884708,-34.8856857
+88,Passira Comercio de Derivados de Petroleo Ltda,"Avenida João de Barros, 1179",Espinheiro,PETROBRAS DISTRIBUIDORA S.A.,-8.044304,-34.890254
+89,Petrocal Petroleo Cavalcanti Limitada,"Avenida Norte, 3110",Rosarinho,PETROBRAS DISTRIBUIDORA S.A.,-8.033548099999999,-34.896225
+90,Posto Albatex Ltda,"Avenida Professor Moraes Rego, 670",Varzea,IPIRANGA,-8.044454199999999,-34.9443961
+91,Posto Leão da Ilha Ltda.,"Avenida Engenheiro Abdias de Carvalho, 125 0",Madalena,RAIZEN,-8.0623066,-34.9114331
+92,Posto Xingu Ltda,"Rua Joao Tude de Melo, 91",Parnamirim,IPIRANGA,-8.0359422,-34.9099119
+93,Posto Cancun Ltda,"Estrada de Belem, 736",Campo Grande,TDC DISTRIBUIDORA,-8.033705399999999,-34.8850685
+94,Petrocal Petroleo Cavalcanti Limitada,"Rua Conselheiro Nabuco, 383",Casa Amarela,PETROBRAS DISTRIBUIDORA S.A.,-8.0292967,-34.9172694
+95,Posto Tacaruna Ltda,"Avenida Cruz Cabuga, 991",Santo Amaro,IPIRANGA,-8.039565399999999,-34.8719012
+96,Posto Cayman Ltda.,"Estrada de Belem, 1218",Campo Grande,BRANCA,-8.0323244,-34.8811986
+97,Mc Comercio Derivados de Petroleo Ltda,"Avenida Norte, 4390 0",Tamarineira,PETROBRAS DISTRIBUIDORA S.A.,-8.0264024,-34.9048737
+98,Cjcm Petroleo Ltda.,"Avenida Marechal Mascarenhas de Morais, 4900",Imbiribeira,RAIZEN,-8.1278436,-34.9158603
+99,Cjcm Petroleo Ltda.,"Avenida Dezessete de Agosto, 2450",Monteiro,RAIZEN,-8.028319,-34.9261111
+100,Posto Elo Ltda,"Estrada dos Remedios, 879",Afogados,IPIRANGA,-8.0722081,-34.9077672
+101,Posto A. R. Combustivel Ltda,"Praca Venacio de Rezende, 10",Afogados,BRANCA,-8.0800758,-34.9107288
+102,Petrocal Petroleo Cavalcanti Limitada,"Avenida Professor Estevão Francisco da Costa, 257",Torre,BRANCA,-8.0472162,-34.9189923
+103,Posto Casa Forte Ltda.,"Avenida 17 de Agosto, 598",Casa Forte,PETROBRAS DISTRIBUIDORA S.A.,-8.0367696,-34.9144537
+104,Petrocal Petroleo Cavalcanti Limitada,"Avenida Norte, 3110",Rosarinho,PETROBRAS DISTRIBUIDORA S.A.,-8.033548099999999,-34.896225
+105,Petrocal Petroleo Cavalcanti Limitada,"Avenida Marechal Mascarenhas de Morais, 1854",Imbiribeira,PETROBRAS DISTRIBUIDORA S.A.,-8.098773999999999,-34.910327
+106,A B Silva e Cia Ltda,"Avenida Beberibe, 1021",Arruda,PETROBRAS DISTRIBUIDORA S.A.,-8.0284357,-34.8931574
+107,Posto Ilheus Ltda,"Rua General Joaquim Inacio, 425",Paissandu,IPIRANGA,-8.063082699999999,-34.8954549
+108,Posto Apipucos Ltda,"Rua Professor Trajano de Mendonca, 440",Torre,RAIZEN,-8.044053,-34.909476
+109,Cemopel Cm Petroleo Ltda,"Rua Rio Azul, 219",Boa Viagem,RAIZEN,-8.134176799999999,-34.9093948
+110,Energy Derivados de Petroleo Ltda,"Rua Jaticy, 53",Imbiribeira,PETROBRAS DISTRIBUIDORA S.A.,-8.1153005,-34.9127029
+111,Mega Posto Ltda,"Avenida Marechal Masc.de Moraes, 1022",Imbiribeira,IPIRANGA,-8.091654,-34.908837
+112,Posto Capri Comércio de Petróleo Ltda.,"Avenida General San Martins, 625",Cordeiro,TDC DISTRIBUIDORA,-8.0553452,-34.9237417
+113,Petrocal Petroleo Cavalcanti Limitada,"Rua Sao Mateus, 26",Iputinga,PETROBRAS DISTRIBUIDORA S.A.,-8.0414007,-34.9368501
+114,Teixeira & Filhos Ltda.,"Avenida Norte, 6999",Casa Amarela,BRANCA,-8.0194833,-34.9274993
+115,Posto Sejal Ltda.,"Avenida Militar, 545",Recife,PETROBRAS DISTRIBUIDORA S.A.,-8.0518662,-34.872319
+116,Posto Leão da Ilha Ltda.,"Avenida Engenheiro Abdias de Carvalho, 1055",Ilha do Retiro,PETROBRAS DISTRIBUIDORA S.A.,-8.0622562,-34.9093351
+117,Posto Apolo Ltda,"Avenida Cais do Apolo, 790",Recife,IPIRANGA,-8.055335099999999,-34.8718359
+118,Petrocal Petroleo Cavalcanti Limitada,"Avenida Engenheiro Abdias de Carvalho, 720",Torroes,PETROBRAS DISTRIBUIDORA S.A.,-8.0626508,-34.9329973
+119,P. G. Comercio de Combustiveis Ltda - Me,"Rua Monte Castelo, 35",Boa Vista,IPIRANGA,-8.0503275,-34.8901969
+120,Posto Nova Madalena Ltda.,"Rua Real da Torre, 430",Madalena,PETROBRAS DISTRIBUIDORA S.A.,-8.053347,-34.9084253
+121,Posto Modelo Ltda,"Avenida Caxanga, 2864",Iputinga,RAIZEN,-8.044094099999999,-34.9321674
+122,Cjcm Petroleo Ltda.,"Rua Ernesto de Paula Santos, 525",Boa Viagem,RAIZEN,-8.12469,-34.9018542
+123,Posto Modelo Ltda,"Avenida Professor Joao Medeiros, 233",Boa Viagem,IPIRANGA,-8.1175207,-34.9008331
+124,Posto Abastecimento Sao Jose Ltda,"Rua Imperial, 457 0",São José,PETROBRAS DISTRIBUIDORA S.A.,-8.0732465,-34.8857365
+125,Posto Campus de Combustiveis Ltda,"Rua Benfica, 919",Madalena,RAIZEN,-8.0584346,-34.907305
+126,Petrovel Petróleo Veloso Ltda.,"Avenida Alfredo Lisboa, 173 Terreo",Bairro do Recife,PETROBRAS DISTRIBUIDORA S.A.,-8.065403,-34.872612
