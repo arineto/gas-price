@@ -32,8 +32,8 @@ class LocationProducer:
             lat, long = self.generate_location()
             data = {
                 'id': random.randint(1, 101),
-                'latitute': lat,
-                'longitude': long,
+                'lat': lat,
+                'long': long,
             }
             self.push_data(data)
             time.sleep(0.5)
