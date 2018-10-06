@@ -34,6 +34,7 @@ class LocationProducer:
                 'id': random.randint(1, 101),
                 'lat': lat,
                 'long': long,
+                'timestamp': time.time(),
             }
             self.push_data(data)
             time.sleep(0.5)

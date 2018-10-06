@@ -23,14 +23,21 @@ client.ksql('DROP STREAM alerts')
 client.ksql('DROP STREAM locations')
 client.ksql('DROP STREAM gas_prices')
 
-# Creates the input streams
+# Creates gas_prices stream
 client.ksql(
-    "CREATE STREAM gas_prices (id VARCHAR, lat DOUBLE, long DOUBLE, fuel VARCHAR, price DOUBLE)"
-    "WITH (KAFKA_TOPIC='gas_prices', VALUE_FORMAT='JSON');"
+    "CREATE STREAM gas_prices"
+    "(id VARCHAR, lat DOUBLE, long DOUBLE, fuel VARCHAR, price DOUBLE, timestamp BIGINT)"
+    "WITH (KAFKA_TOPIC='gas_prices', VALUE_FORMAT='JSON', TIMESTAMP='timestamp');"
 )
+
+# Creates the location stream
 client.ksql(
-    "CREATE STREAM locations (id VARCHAR, lat DOUBLE, long DOUBLE)"
-    "WITH (KAFKA_TOPIC='locations', VALUE_FORMAT='JSON');"
+    "CREATE STREAM locations"
+    "(id VARCHAR, lat DOUBLE, long DOUBLE, timestamp BIGINT)"
+    "WITH (KAFKA_TOPIC='locations', VALUE_FORMAT='JSON', TIMESTAMP='timestamp');"
 )
 
 # Creates the alert stream
+client.sql(
+    "CREATE STREAM alerts "
+)

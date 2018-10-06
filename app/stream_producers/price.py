@@ -35,7 +35,8 @@ class PriceProducer:
             'lat': data.get('latitude'),
             'long': data.get('longitude'),
             'fuel': data.get('fuel'),
-            'price': data.get('price')
+            'price': data.get('price'),
+            'timestamp': time.time(),
         }
         json_data = json.dumps(new_data).encode('utf-8')
         print(f'Pushing new data to kafka: {json_data}')
