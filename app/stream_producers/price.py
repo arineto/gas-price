@@ -17,7 +17,7 @@ class PriceProducer:
     def read_data(self):
         data = []
         with open('sample_data/gas_stations.csv', 'r') as csv_file:
-            reader = DictReader(csv_file, delimiter=';')
+            reader = DictReader(csv_file)
             data = [row for row in reader]
         return data
 
