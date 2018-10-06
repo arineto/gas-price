@@ -34,10 +34,10 @@ class LocationProducer:
                 'id': random.randint(1, 101),
                 'lat': lat,
                 'long': long,
-                'timestamp': time.time(),
+                'location_timestamp': int(time.time() * 1000),
             }
             self.push_data(data)
-            time.sleep(0.5)
+            time.sleep(1)
 
 
 if __name__ == '__main__':

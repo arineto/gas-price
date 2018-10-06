@@ -36,7 +36,7 @@ class PriceProducer:
             'long': data.get('longitude'),
             'fuel': data.get('fuel'),
             'price': data.get('price'),
-            'timestamp': time.time(),
+            'price_timestamp': int(time.time() * 1000),
         }
         json_data = json.dumps(new_data).encode('utf-8')
         print(f'Pushing new data to kafka: {json_data}')
@@ -47,7 +47,7 @@ class PriceProducer:
             gas_station = random.choice(self.data)
             data = self.create_price(gas_station)
             self.push_data(data)
-            time.sleep(1)
+            time.sleep(10)
 
 
 if __name__ == '__main__':
