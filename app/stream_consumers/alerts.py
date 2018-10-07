@@ -3,9 +3,9 @@ import json
 from kafka import KafkaConsumer
 
 
-class LocationConsumer:
+class AlertsConsumer:
 
-    KAFKA_TOPIC_NAME = 'locations'
+    KAFKA_TOPIC_NAME = 'ALERTS'
 
     def __init__(self):
         self.consumer = KafkaConsumer(
@@ -15,9 +15,10 @@ class LocationConsumer:
     def run(self):
         print(f'Starting the {self.KAFKA_TOPIC_NAME} consumer')
         for message in self.consumer:
-            print(f'Received new data: {message.key} - {message.value}')
+            data = json.loads(message.value)
+            print(f'Received new data: {data}')
 
 
 if __name__ == '__main__':
-    consumer = LocationConsumer()
+    consumer = AlertsConsumer()
     consumer.run()

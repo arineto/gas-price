@@ -15,8 +15,7 @@ class PriceConsumer:
     def run(self):
         print(f'Starting the {self.KAFKA_TOPIC_NAME} consumer')
         for message in self.consumer:
-            data = json.loads(message.value)
-            print(f'Received new data: {data}')
+            print(f'Received new data: {message.key} - {message.value}')
 
 
 if __name__ == '__main__':

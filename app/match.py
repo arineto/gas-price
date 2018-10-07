@@ -1,5 +1,4 @@
 import json
-import time
 
 from kafka import KafkaProducer
 
@@ -7,42 +6,25 @@ from kafka import KafkaProducer
 producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
 
 
-def create_price():
-    return {
-        'id': 1,
-        'lat': '-8.0710581',
-        'long': '-34.9096468',
-        'fuel': 'gas',
-        'price': 4.59,
-        'price_timestamp': int(time.time() * 1000),
-        'joinner': 1,
-    }
+prices = [
+    {'priceid': '1', 'lat': 8.1, 'long': 34.1, 'price': 4.50, 'timestamp': 1, 'joinner': 1},
+    {'priceid': '2', 'lat': 8.2, 'long': 34.2, 'price': 4.60, 'timestamp': 2, 'joinner': 1},
+    {'priceid': '1', 'lat': 8.1, 'long': 34.1, 'price': 4.70, 'timestamp': 3, 'joinner': 1},
+    {'priceid': '1', 'lat': 8.1, 'long': 34.1, 'price': 4.90, 'timestamp': 4, 'joinner': 1},
+    {'priceid': '2', 'lat': 8.2, 'long': 34.2, 'price': 4.90, 'timestamp': 5, 'joinner': 1},
+]
+
+for price in prices:
+    key = price['priceid'].encode('utf-8')
+    value = json.dumps(price).encode('utf-8')
+    producer.send('gas_prices', key=key, value=value)
 
 
-def create_location():
-    return {
-        'id': 1,
-        'lat': '-8.068362',
-        'long': '-34.909811',
-        'location_timestamp': int(time.time() * 1000),
-        'joinner': 1,
-    }
+locations = [
+    {'locationid': '10', 'lat': 8.5, 'long': 34.5, 'timestamp': 1, 'joinner': 1}
+]
 
-
-def push_data(topic, data):
-    producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
-    print(f'Pushing new data to kafka: {data}')
-    json_data = json.dumps(data).encode('utf-8')
-    producer.send(topic, json_data)
-
-
-def run():
-    price = create_price()
-    push_data('gas_prices', price)
-
-    location = create_location()
-    push_data('locations', location)
-
-
-if __name__ == '__main__':
-    run()
+for location in locations:
+    key = location['locationid'].encode('utf-8')
+    value = json.dumps(location).encode('utf-8')
+    producer.send('locations', key=key, value=value)
