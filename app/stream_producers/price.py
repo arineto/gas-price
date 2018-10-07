@@ -36,7 +36,7 @@ class PriceProducer:
             'long': data.get('longitude'),
             'fuel': data.get('fuel'),
             'price': data.get('price'),
-            'price_timestamp': 1538880409368,
+            'timestamp': int(time.time() * 1000),
             'joinner': 1,
         }
         json_data = json.dumps(new_data).encode('utf-8')

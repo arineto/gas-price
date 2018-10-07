@@ -9,10 +9,10 @@ class LocationProducer:
 
     KAFKA_TOPIC_NAME = 'locations'
 
-    MIN_LAT = -8.008605
-    MAX_LAT = -8.154150
-    MIN_LONG = -34.865000
-    MAX_LONG = -34.968500
+    MIN_LAT = 8.008605
+    MAX_LAT = 8.154150
+    MIN_LONG = 34.865000
+    MAX_LONG = 34.968500
 
     def __init__(self):
         self.producer = KafkaProducer(bootstrap_servers=['localhost:9092'])
@@ -35,7 +35,7 @@ class LocationProducer:
                 'id': random.randint(1, 101),
                 'lat': lat,
                 'long': long,
-                'location_timestamp': 1538880409368,
+                'timestamp': int(time.time() * 1000),
                 'joinner': 1,
             }
             self.push_data(data)
