@@ -23,9 +23,10 @@ client.ksql(
 )
 
 # Creates the alert stream
-client.sql(
-    "SELECT P.id, P.price, P.lat, P.long, L.id, L.lat, L.long FROM gas_prices P INNER JOIN locations L WITHIN 1 HOURS ON P.joinner = L.joinner WHERE GEO_DISTANCE(P.lat, P.long, L.lat, L.long, 'KM') < 0.5;"
-)
+client.sql('''
+SELECT P.id, P.price, P.lat, P.long, L.id, L.lat, L.long FROM gas_prices P INNER JOIN locations L WITHIN 1 HOURS ON P.joinner = L.joinner
+    WHERE GEO_DISTANCE(P.lat, P.long, L.lat, L.long, 'KM') < 0.5;
+''')
 
 # Some useful queries
 query1 = "SELECT id, TIMESTAMPTOSTRING(price_timestamp, 'yyyy-MM-dd HH:mm:ss') from gas_prices;"

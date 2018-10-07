@@ -36,7 +36,7 @@ class PriceProducer:
             'long': data.get('longitude'),
             'fuel': data.get('fuel'),
             'price': data.get('price'),
-            'price_timestamp': int(time.time() * 1000),
+            'price_timestamp': 1538880409368,
             'joinner': 1,
         }
         json_data = json.dumps(new_data).encode('utf-8')
@@ -48,7 +48,7 @@ class PriceProducer:
             gas_station = random.choice(self.data)
             data = self.create_price(gas_station)
             self.push_data(data)
-            time.sleep(0.5)
+            time.sleep(1)
 
 
 if __name__ == '__main__':
