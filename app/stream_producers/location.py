@@ -20,7 +20,8 @@ class LocationProducer:
     def push_data(self, data):
         print(f'Pushing new data to kafka: {data}')
         json_data = json.dumps(data).encode('utf-8')
-        self.producer.send(self.KAFKA_TOPIC_NAME, json_data)
+        key = f'{data["id"]}'.encode('utf-8')
+        self.producer.send(self.KAFKA_TOPIC_NAME, key=key, value=json_data)
 
     def generate_location(self):
         lat = round(random.uniform(self.MIN_LAT, self.MAX_LAT), 6)
@@ -38,7 +39,7 @@ class LocationProducer:
                 'joinner': 1,
             }
             self.push_data(data)
-            time.sleep(1)
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':

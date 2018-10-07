@@ -9,24 +9,29 @@ client.ksql('DROP STREAM locations;')
 client.ksql('DROP STREAM gas_prices;')
 
 # Creates gas_prices stream
-client.ksql(
-    "CREATE STREAM gas_prices"
-    "(id INT, lat DOUBLE, long DOUBLE, fuel VARCHAR, price DOUBLE, price_timestamp BIGINT, joinner INT)"
-    "WITH (KAFKA_TOPIC='gas_prices', VALUE_FORMAT='JSON', TIMESTAMP='price_timestamp');"
-)
+client.ksql('''
+    CREATE STREAM gas_prices \
+    (id INT, lat DOUBLE, long DOUBLE, price DOUBLE, timestamp BIGINT, joinner INT) \
+    WITH (KAFKA_TOPIC='gas_prices', VALUE_FORMAT='JSON', TIMESTAMP='timestamp');
+''')
+
+# Creates gas_prices as a table
+client.ksql('''
+    CREATE TABLE gas_prices \
+    (id INT, lat DOUBLE, long DOUBLE, price DOUBLE, timestamp BIGINT, joinner INT) \
+    WITH (KAFKA_TOPIC='gas_prices', VALUE_FORMAT='JSON', TIMESTAMP='timestamp', KEY = 'id');
+''')
 
 # Creates the location stream
-client.ksql(
-    "CREATE STREAM locations"
-    "(id INT, lat DOUBLE, long DOUBLE, location_timestamp BIGINT, joinner INT)"
-    "WITH (KAFKA_TOPIC='locations', VALUE_FORMAT='JSON', TIMESTAMP='location_timestamp');"
-)
+client.ksql('''
+    CREATE STREAM locations \
+    (id INT, lat DOUBLE, long DOUBLE, timestamp BIGINT, joinner INT) \
+    WITH (KAFKA_TOPIC='locations', VALUE_FORMAT='JSON', TIMESTAMP='timestamp');
+''')
 
 # Creates the alert stream
 client.sql('''
-SELECT P.id, P.price, P.lat, P.long, L.id, L.lat, L.long FROM gas_prices P INNER JOIN locations L WITHIN 1 HOURS ON P.joinner = L.joinner
+    SELECT L.id, P.id, P.price FROM locations L \
+    INNER JOIN gas_prices P ON L.joinner = P.joinner \
     WHERE GEO_DISTANCE(P.lat, P.long, L.lat, L.long, 'KM') < 0.5;
 ''')
-
-# Some useful queries
-query1 = "SELECT id, TIMESTAMPTOSTRING(price_timestamp, 'yyyy-MM-dd HH:mm:ss') from gas_prices;"

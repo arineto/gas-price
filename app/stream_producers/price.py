@@ -41,14 +41,15 @@ class PriceProducer:
         }
         json_data = json.dumps(new_data).encode('utf-8')
         print(f'Pushing new data to kafka: {json_data}')
-        self.producer.send(self.KAFKA_TOPIC_NAME, json_data)
+        key = f'{new_data["id"]}'.encode('utf-8')
+        self.producer.send(self.KAFKA_TOPIC_NAME, key=key, value=json_data)
 
     def run(self):
         while True:
             gas_station = random.choice(self.data)
             data = self.create_price(gas_station)
             self.push_data(data)
-            time.sleep(1)
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':
