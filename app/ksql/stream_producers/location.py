@@ -20,7 +20,7 @@ class LocationProducer:
     def push_data(self, data):
         print(f'Pushing new data to kafka: {data}')
         json_data = json.dumps(data).encode('utf-8')
-        key = data['locationid'].encode('utf-8')
+        key = f'{data["id"]}'.encode('utf-8')
         self.producer.send(self.KAFKA_TOPIC_NAME, key=key, value=json_data)
 
     def generate_location(self):
@@ -32,7 +32,7 @@ class LocationProducer:
         while True:
             lat, long = self.generate_location()
             data = {
-                'locationid': f'{random.randint(1, 101)}',
+                'id': random.randint(1, 101),
                 'lat': lat,
                 'long': long,
                 'timestamp': int(time.time() * 1000),
