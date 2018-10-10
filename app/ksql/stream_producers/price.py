@@ -31,16 +31,16 @@ class PriceProducer:
 
     def push_data(self, data):
         new_data = {
-            'priceid': f'{data.get("id")}',
+            'stationid': str(data.get("id")),
             'lat': float(data.get('latitude')),
             'long': float(data.get('longitude')),
-            'price': data.get('price'),
-            'timestamp': int(time.time() * 1000),
+            'price': float(data.get('price')),
+            'recordtime': int(time.time() * 1000),
             'joinner': 1,
         }
         json_data = json.dumps(new_data).encode('utf-8')
         print(f'Pushing new data to kafka: {json_data}')
-        key = new_data['priceid'].encode('utf-8')
+        key = new_data['stationid'].encode('utf-8')
         self.producer.send(self.KAFKA_TOPIC_NAME, key=key, value=json_data)
 
     def run(self):
@@ -48,7 +48,7 @@ class PriceProducer:
             gas_station = random.choice(self.data)
             data = self.create_price(gas_station)
             self.push_data(data)
-            time.sleep(0.1)
+            time.sleep(1)
 
 
 if __name__ == '__main__':
